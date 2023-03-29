@@ -568,6 +568,3 @@ docker run --privileged --rm -it nsjailcontainer nsjail --user 99999 --group 999
 </pre>
 
 ***
-### Contact
-
-  * User mailing list: [nsjail@googlegroups.com](mailto:nsjail@googlegroups.com), sign up with this [link](https://groups.google.com/forum/#!forum/nsjail)
