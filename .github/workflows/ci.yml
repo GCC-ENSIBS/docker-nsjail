@@ -25,5 +25,5 @@ jobs:
 
           - name: 'Build Inventory Image'
             run: |
-              docker build . --tag ghcr.io/gcc-ensibs/docker-nsjail:${GITHUB_SHA}
-              docker push ghcr.io/gcc-ensibs/docker-nsjail:${GITHUB_SHA}
+              docker build . --tag ghcr.io/gcc-ensibs/docker-nsjail:latest
+              docker push ghcr.io/gcc-ensibs/docker-nsjail:latest
