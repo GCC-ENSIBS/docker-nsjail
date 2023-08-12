@@ -17,4 +17,6 @@ RUN apt-get -y update && apt-get install -y \
 
 COPY . /nsjail
 
+LABEL org.opencontainers.image.description Docker Jail for isolating TCP challenges
+
 RUN cd /nsjail && make && mv /nsjail/nsjail /bin && rm -rf -- /nsjail
